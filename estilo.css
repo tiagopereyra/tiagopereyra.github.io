@@ -1,0 +1,317 @@
+#body{
+    background-image: linear-gradient(60deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    transition: all 2s; 
+    background-repeat: no-repeat;
+}
+
+#datos{
+    width: 1500px;
+    size: 200px;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding-bottom: 100px;
+    margin-top: 70px;
+    transition: width 2s, height 2s, transform 3s;
+}
+
+#datos:hover {
+  transform: rotate(360deg);
+}
+
+#logo{
+  margin-top: -150px;
+  margin-left: 1670px;
+  position: absolute;
+
+}
+
+#a{
+    font-size: 45px;
+    transition: width 2s;
+}
+
+#tps{
+    color: aliceblue;
+    text-align: center;
+}
+
+
+#contenedor{
+  width: 100%;
+  height: max-content;
+}
+
+.row{
+  width: 70%;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto  !important;
+  margin-bottom: 20px !important;
+}
+
+.btn-light{
+  top: 95%;
+  position: fixed;
+}
+
+.btn-dark{
+  top: 95%;
+  position: fixed;
+  left: 85px;
+}
+
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 3px;
+  text-align: center;
+}
+
+
+/* --------------------- */ 
+.contenedor1 {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+}
+
+#im1{
+  height: auto;
+  width: 100%;
+}
+
+.contenedor1:hover .overlay {
+  opacity: 1;
+}
+
+#overlay1{
+  width: 98.7%;
+}
+/* --------------------- */
+.contenedor2 {
+  position: relative;
+  width: 100%;
+  max-width: 151px;
+}
+#im2{
+  width: auto;
+  height: auto;
+}
+.contenedor2:hover .overlay {
+  opacity: 1;
+}
+
+#overlay2{
+  width: 100%;
+}
+/* --------------------- */
+.contenedor3 {
+  position: relative;
+  width: 100%;
+  max-width: 354px;
+}
+#im3{
+  width: auto;
+  height: auto;
+}
+.contenedor3:hover .overlay {
+  opacity: 1;
+}
+
+#overlay3{
+  width: 100%;
+}
+/* --------------------- */
+.contenedor4 {
+  position: relative;
+  width: 100%;
+  max-width: 255px;
+}
+#im4{
+  width: auto;
+  height: auto;
+}
+.contenedor4:hover .overlay {
+  opacity: 1;
+}
+
+#overlay4{
+  width: 100%;
+}
+/* --------------------- */
+.contenedor5 {
+  position: relative;
+  width: 100%;
+  max-width: 255px;
+}
+#im5{
+  width: auto;
+  height: auto;
+}
+.contenedor5:hover .overlay {
+  opacity: 1;
+}
+
+#overlay5{
+  width: 100%;
+}
+/* --------------------- */
+.contenedor6 {
+  position: relative;
+  width: 100%;
+  max-width: 528px;
+}
+#im6{
+  width: auto;
+  height: auto;
+}
+.contenedor6:hover .overlay {
+  opacity: 1;
+}
+
+#overlay6{
+  width: 100%;
+}
+ 
+
+  /* --------------------- */
+
+  /* div.foto2 {
+    margin: 10px;
+    border: 1px solid white;
+    float: left;
+    width: 150px;
+  }
+  
+  div.foto2:hover {
+    border: 10px solid white;
+  }
+  
+  div.foto2 img {
+    display: block;
+    width: 100%;
+    height: auto;
+  } */
+  
+/* --------------------- */
+
+div.foto3 {
+  margin: 5px;
+  border: 1px solid white;
+  float: left;
+  width: 325px;
+}
+
+div.foto3:hover {
+  border: 10px solid white;
+}
+
+div.foto3 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* --------------------- */
+
+div.foto4 {
+  margin: 5px;
+  border: 1px solid white;
+  float: left;
+  width: 260px;
+}
+
+div.foto4:hover {
+  border: 10px solid white;
+}
+
+div.foto4 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* --------------------- */
+
+div.foto5 {
+  margin: 5px;
+  border: 1px solid white;
+  float: left;
+  width: 260px;
+}
+
+div.foto5:hover {
+  border: 10px solid white;
+}
+
+div.foto5 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* --------------------- */
+
+div.foto6 {
+  margin: 5px;
+  border: 1px solid white;
+  float: left;
+  width: 365px;
+}
+
+div.foto6:hover {
+  border: 10px solid white;
+}
+
+div.foto6 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#light{
+ font-size: 18;
+ padding-top: 50;
+ padding-bottom: 50;
+}
+
+#dark{
+ font-size: 18;
+ padding-top: 50;
+ padding-bottom: 50;
+}
+
+#c{
+  text-align: center;
+ }
+ 
+ #muestrario{
+     margin-top: 10px;
+ }
+
+ .btn-secondary{
+  top: 95%;
+  position: fixed;
+  right: 85px;
+
+ }
+
+
+
+  
